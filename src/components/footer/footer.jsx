@@ -1,6 +1,9 @@
+import '../footer/footer.Module.css'
+
 const Footer = () => {
   return (
-    <div>
+    <div className="contenedorF">
+
       <div>
         <a
           href="https://www.linkedin.com/in/fernando-samayoa-01116964/"
@@ -14,15 +17,6 @@ const Footer = () => {
             width="40"
           />
         </a>
-        <a href="mailto:fsamayoal@gmail.com" target="blank">
-          <img
-            align="center"
-            src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
-            alt=" logo Gmail"
-            height="40"
-            width="40"
-          />
-        </a>
         <a href="https://github.com/FSamayoa" target="blank">
           <img
             align="center"
@@ -32,9 +26,18 @@ const Footer = () => {
             width="40"
           />
         </a>
+        <a href="mailto:fsamayoal@gmail.com" target="blank">
+          <img
+            align="center"
+            src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
+            alt=" logo Gmail"
+            height="40"
+            width="40"
+          />
+        </a>
       </div>
       <div>
-        <button>Download CV</button>
+        <button><strong>Descargar CV</strong></button>
       </div>
     </div>
   );

@@ -1,0 +1,25 @@
+.contenedorF {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 15px 0;
+  margin: 35px;
+}
+
+
+.contenedorF a {
+  margin-right: 20px;
+}
+
+
+.contenedorF button {
+  background-color: #06fff3;
+  color: #4E4FEB;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}

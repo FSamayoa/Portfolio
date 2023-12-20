@@ -1,7 +1,9 @@
+import '../projec/projects.Module.css'
+
 const Projects = ()=>{
     return(
-        <div>
-
+        <div className="contenedor">
+            <p>Estos son los proyectos</p>
         </div>
     )
 }

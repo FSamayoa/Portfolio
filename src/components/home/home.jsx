@@ -1,6 +1,9 @@
+import React from "react";
+import '../home/home.Module.css'
+
 const Home = () => {
   return (
-    <div>
+    <div className="contenedor">
       <p>
         Soy Fernando Samayoa, un ingeniero en transporte con más de una década
         de experiencia que ha emprendido un emocionante cambio hacia el
