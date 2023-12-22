@@ -1,6 +1,21 @@
 import '../footer/footer.Module.css'
 
 const Footer = () => {
+  const handleClick = () => {
+    const link = document.createElement("a");
+    link.href = "../src/assets/CV.pdf";
+    link.download = "CV Fernando Samayoa.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const estiloFuente = {
+    fontFamily: 'Audiowide',
+    fontSize: '16px',
+    color: '#282A36'
+  };
+
   return (
     <div className="contenedorF">
 
@@ -37,7 +52,7 @@ const Footer = () => {
         </a>
       </div>
       <div>
-        <button><strong>Descargar CV</strong></button>
+        <button onClick={handleClick} style={estiloFuente}><strong>Descargar CV</strong></button>
       </div>
     </div>
   );

@@ -1,15 +1,69 @@
-/* .contenedor {
-  border: 0px solid #068fff;
+.entrada{
+  border: 0px solid #ff6e06;
   border-radius: 10px;
-  box-shadow: 0 4px 12px #06fff3;
-  margin: 20px auto;
-  max-width: 1200px;
-  padding: 15px;
+  box-shadow: 0 0 6px rgba(6, 255, 243, 0.5), 0 0 8px rgba(6, 255, 243, 0.5) inset;
+  background-color: #282A36;
+  color: #06fff3;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: none;
+  font-family: 'Audiowide', cursive;
+
+  width: 40vh;
+  height: 4vh;
+}   
+.entrada::placeholder {
+  color: #06fff34b;
 }
 
-.pIzquierdo{
-text-align: justify;
-padding: 15px;
-max-width: 1100px;
-margin: 0 auto;
-} */
+.entrada:focus {
+  box-shadow: 0px 0px 10px #06fff3;
+  border: 0px solid #ff6e06;
+  outline: none
+}
+
+.entrada2{
+  border: 0px solid #ff6e06;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(6, 255, 243, 0.5), 0 0 8px rgba(6, 255, 243, 0.5) inset;
+  background-color: #282A36;
+  color: #06fff3;
+  outline: none;
+  padding: 15px;
+  font-family: 'Audiowide', cursive;
+
+  width: 40vh;
+  height: 12vh;
+}
+
+.entrada2::placeholder {
+  color: #06fff34b;
+}
+
+.entrada2:focus {
+  box-shadow: 0px 0px 10px #06fff3;
+  border: 0px solid #ff6e06;
+  outline: none
+}
+
+.send{
+  border-radius: 10px;
+  border: 0px solid #ff6e06;
+  width: 20vh;
+  height: 6vh;
+  color: #06fff34b;
+  font-size: 15px;
+  transition: transform 0.2s ease-in-out;
+  font-family: 'Audiowide', cursive;
+}
+
+.send:enabled {
+  background-color: #06fff3;
+  color: #282A36;
+  cursor: pointer;
+}
+
+.send:hover {
+  transform: scale(1.05);
+
+}

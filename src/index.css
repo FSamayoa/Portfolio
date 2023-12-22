@@ -1,10 +1,12 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Audiowide', cursive;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
   background-color: #282A36;
-  color: #4E4FEB;
+  /* color: #a9d2f2; */
+  color: #06fff3ad;
 
 }
 
