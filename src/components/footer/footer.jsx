@@ -10,6 +10,8 @@ const Footer = () => {
     document.body.removeChild(link);
   };
 
+  
+
   const estiloFuente = {
     fontFamily: 'Audiowide',
     fontSize: '16px',
