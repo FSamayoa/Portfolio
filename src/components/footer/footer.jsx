@@ -3,7 +3,7 @@ import '../footer/footer.Module.css'
 const Footer = () => {
   const handleClick = () => {
     const link = document.createElement("a");
-    link.href = "../src/assets/CV.pdf";
+    link.href = "https://file.notion.so/f/f/0bd13d26-c382-4bed-9ae9-7e21d3d56dee/21844ffe-f417-42f3-b1f1-95b3e29a574f/CV.pdf?id=f99cac8f-a021-4f9c-ae37-d71b7e1d5b80&table=block&spaceId=0bd13d26-c382-4bed-9ae9-7e21d3d56dee&expirationTimestamp=1703980800000&signature=dntcK9Rivnbs-_B-wiltf0bwxyaFxQI_HCija6vcaJg&downloadName=CV.pdf";
     link.download = "CV Fernando Samayoa.pdf"; 
     document.body.appendChild(link);
     link.click();
