@@ -150,6 +150,8 @@ const Email = () => {
             <button className="send" type="submit" disabled={desabilitar}>
               <strong>Enviar</strong>
             </button>
+            <br></br>
+            <br></br>
           </div>
         </form>
       </div>

@@ -8,7 +8,7 @@ const Nav = () => {
         <div className="nav-container">
       <div className="logo-container">
         <Link  to="/home">
-          <img className="image" src="../src/assets/fanlogo.png"></img>
+          <img className="image" src="../src/assets/fer.jpg"></img>
           </Link>
       </div>
       <div className="title-container">
@@ -19,7 +19,7 @@ const Nav = () => {
         <Link to='/acerca' className={`navigation ${location.pathname === '/acerca' ? 'selected' : ''}`}>
           Sobre Mi
         </Link>
-        <Link to='/projectos' className={`navigation ${location.pathname === '/projectos' ? 'selected' : ''}`}>
+        <Link to='/proyectos' className={`navigation ${location.pathname === '/proyectos' ? 'selected' : ''}`}>
           Proyectos
         </Link>
         <Link to='/contacto' className={`navigation ${location.pathname === '/contacto' ? 'selected' : ''}`}>
