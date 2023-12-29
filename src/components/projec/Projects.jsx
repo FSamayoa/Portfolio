@@ -46,7 +46,7 @@ const Projects = () => {
           </a>
           <a href={proyecto.proyectoLink} target="_blank" rel="noopener noreferrer">
           <img 
-          src="https://i.imgur.com/XCygFHm.png" 
+          src="https://i.imgur.com/ivhAPEN.png" 
           target="blank"
           height="40"
           width="40"
