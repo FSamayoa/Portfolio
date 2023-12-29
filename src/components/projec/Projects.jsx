@@ -38,7 +38,7 @@ const Projects = () => {
           <div>
           <a href={proyecto.repoLink} target="_blank" rel="noopener noreferrer">
           <img 
-          src="../src/assets/github-mark-white.svg" 
+          src="https://i.imgur.com/E1VcJze.png" 
           target="blank"
           height="40"
           width="40"
@@ -46,7 +46,7 @@ const Projects = () => {
           </a>
           <a href={proyecto.proyectoLink} target="_blank" rel="noopener noreferrer">
           <img 
-          src="../src/assets/internet.png" 
+          src="https://i.imgur.com/XCygFHm.png" 
           target="blank"
           height="40"
           width="40"

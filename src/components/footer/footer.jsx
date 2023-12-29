@@ -35,7 +35,7 @@ const Footer = () => {
         <a href="https://github.com/FSamayoa" target="blank">
           <img
             align="center"
-            src="https://i.imgur.com/dy2uNAS.png"
+            src="https://i.imgur.com/E1VcJze.png"
             alt="logo github"
             height="40"
             width="40"
