@@ -13,7 +13,7 @@ export const projectsData = [
       tituloProy:'Countries',
       descripcion: 'Desarrollado como proyecto individual para una evaluación avanzada del bootcamp, Countries es una aplicación fullstack que facilita la búsqueda de información sobre países. Permite conocer las actividades que se pueden realizar en cada país y proporciona datos adicionales mediante la integración de una API externa.',
       repoLink: 'https://github.com/FSamayoa/proyectCountries',
-      proyectoLink:'https://hola.com',
+      proyectoLink:'',
       id:2
     },
     {
