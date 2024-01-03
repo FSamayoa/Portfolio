@@ -3,7 +3,7 @@ import '../footer/footer.Module.css'
 const Footer = () => {
   const handleClick = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=17sDrdOvXtdDGs_2rXAyF0t6YiN-5TCxZ&name=CV-Fernando-Samayoa.pdf";
+    link.href = "https://drive.google.com/uc?export=download&id=1b9Le_CVPNWnkrexzhrT7dLd8OAPR02gy";
     link.download = "CV Fernando Samayoa.pdf"; 
     document.body.appendChild(link);
     link.click();
