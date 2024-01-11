@@ -72,6 +72,7 @@
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 0%;
+  
    
 
   }
@@ -81,6 +82,7 @@
   .logo-project.clicked .back {
     font-size: 6px; 
     max-height: 15vh;
-    max-width: 24vh;
+    max-width: 26vh;
+
   }
 }
