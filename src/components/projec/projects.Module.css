@@ -67,7 +67,18 @@
 
 
 @media screen and (max-width: 768px) {
+  .logo-project img {
+    max-height: 30vh; /* Ajusta según sea necesario para dispositivos móviles */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0%;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
   .logo-project.clicked .back {
     font-size: 8px; /* Ajusta según sea necesario para dispositivos móviles */
+    max-height: 15vh;
   }
 }
