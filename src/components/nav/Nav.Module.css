@@ -20,7 +20,7 @@
   .title{
     transition: transform 0.2s ease-in-out;
     text-decoration: none;
-    font-size: 75px;
+    font-size: 8vh;
     padding: 5px; 
     -webkit-text-stroke: 2px #06d1ff; 
     -webkit-text-fill-color: transparent;
