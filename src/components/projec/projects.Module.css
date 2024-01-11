@@ -64,3 +64,10 @@
   visibility: visible;
   font-size: 12px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .logo-project.clicked .back {
+    font-size: 8px; /* Ajusta según sea necesario para dispositivos móviles */
+  }
+}
