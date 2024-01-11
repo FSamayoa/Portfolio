@@ -52,6 +52,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2px;
+    flex-wrap: wrap;
     
   }
 
@@ -69,4 +70,6 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 10vh;
+    margin-left: 10vh;
+    flex-wrap: wrap;
   }
