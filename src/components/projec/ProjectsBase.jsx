@@ -13,7 +13,7 @@ export const projectsData = [
       tituloProy:'Countries',
       descripcion: 'Desarrollado como proyecto individual para una evaluación avanzada del bootcamp, Countries es una aplicación fullstack que facilita la búsqueda de información sobre países. Permite conocer las actividades que se pueden realizar en cada país y proporciona datos adicionales mediante la integración de una API externa.',
       repoLink: 'https://github.com/FSamayoa/proyectCountries',
-      proyectoLink:'',
+      // proyectoLink:'',
       id:2
     },
     {
@@ -25,13 +25,21 @@ export const projectsData = [
       id:3
     },
     {
-      imagenSrc: 'https://i.imgur.com/IOyMYna.png',
-      tituloProy:'Busqueda de peliculas',
-      descripcion: 'Proyecto personal sencillo, pero con una gran funcionalidad de buscar una pelicula y poder obtener informacion de ella, tanto el poster, año, actores, etc, aplicacion conectada a una api para poder obtener todos estos datos.',
-      repoLink: 'https://github.com/FSamayoa/proyecto-api-peliculas',
-      proyectoLink:'https://busqueda-de-peliculas-por-api.netlify.app/',
+      imagenSrc: 'https://i.imgur.com/BRN5ESo.png',
+      tituloProy:'FBA Nacional',
+      descripcion: 'Aplicación móvil como herramienta para consultar resultados en tiempo real, explorar el calendario de juegos y verificar las posiciones de los equipos. La aplicación cuenta con una interfaz intuitiva, notificaciones instantáneas para resultados, anuncios y conexión a tablas externas para mostrar información.',
+      // repoLink: '',
+      proyectoLink:'http://bit.ly/3Ppyf43',
       id:4
     },
+    // {
+    //   imagenSrc: 'https://i.imgur.com/IOyMYna.png',
+    //   tituloProy:'Busqueda de peliculas',
+    //   descripcion: 'Proyecto personal sencillo, pero con una gran funcionalidad de buscar una pelicula y poder obtener informacion de ella, tanto el poster, año, actores, etc, aplicacion conectada a una api para poder obtener todos estos datos.',
+    //   repoLink: 'https://github.com/FSamayoa/proyecto-api-peliculas',
+    //   proyectoLink:'https://busqueda-de-peliculas-por-api.netlify.app/',
+    //   id:5
+    // },
 
   ];
 
